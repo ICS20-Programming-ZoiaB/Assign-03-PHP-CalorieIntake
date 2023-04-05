@@ -1,0 +1,40 @@
+/* Created by: ZoiaB
+* Created on: Apr 2023
+* This CSS file defines the style for index.php
+* ICS2O-Assign-03-PHP-CalorieIntake
+*/
+
+body {
+  width: 80%;
+  margin: 5% 10%;
+  background-color: #dbc1b3;
+}
+
+h1 {
+  padding: 20px;
+  background-color: #775574;
+  text-align: center;
+  color: #dbc1b3;
+}
+
+p {
+  background-color: #775574;
+  color: #e9d8d8;
+  text-align: center;
+}
+
+form {
+  width: 90%;
+  margin-left: 30%;
+}
+
+h3 {
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+iframe {
+  background-color: #775574;
+  color: #e9d8d8;
+  }
