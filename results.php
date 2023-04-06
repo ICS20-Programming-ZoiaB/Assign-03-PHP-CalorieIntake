@@ -1,12 +1,14 @@
 <?php
 
 //Get user input
-  $fahrenheit = floatval($_POST['fahrenheit']);
+  $totalCalories = floatval($_POST['totalCalories']);
 
 //Calculate and display
-  $celsius = 5/9 * ($fahrenheit - 32);
-  $celsiusRounded = round($celsius, 1)
+  $protein = 0.2 * $totalCalories;
+  $carbohydrates = 0.55 * $totalCalories;
+  $proteinRounded = round($protein, 2);
+  $carbohydratesRounded = round($carbohydrates, 2);
 ?>
 
   <h4>Results</h4>
- The temperature in Celsius is  <?php echo "$celsiusRounded" ?> degrees Celsius.
+ The amount of calories of protein you should eat is  <?php echo "$proteinRounded" ?> and the amount of calories of carbohydrate you should eat is <?php echo "$carbohydratesRounded" ?>.
