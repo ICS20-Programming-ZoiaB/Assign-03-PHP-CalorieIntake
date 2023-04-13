@@ -1,9 +1,9 @@
 <?php
 
-//Get user input
+//Get user input of total calories per day
   $totalCalories = floatval($_POST['totalCalories']);
 
-//Calculate and display
+//Calculate and display number of calories of protein and carbohydrate
   $protein = 0.2 * $totalCalories;
   $carbohydrates = 0.55 * $totalCalories;
   $proteinRounded = round($protein, 2);
