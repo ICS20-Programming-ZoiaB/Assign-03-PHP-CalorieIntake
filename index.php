@@ -43,7 +43,7 @@
       <?php echo "<h3>Your Input:</h3>"; ?>
       <form action="./results.php" method="post" target="result">
         <label for="totalCalories">Total calories (per day):</label>
-        <input type="float" step="0.01" name="totalCalories" placeholder="Total calories..."><br><br>
+        <input type="float" step="0.01" min="0" name="totalCalories" placeholder="Total calories..."><br><br>
         <input type="submit" value="Calculate" button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
       </form>
 
